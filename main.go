@@ -10,11 +10,6 @@ import (
 	"os"
 )
 
-/*
-use admin
-db.createUser({ user: "admin" , pwd: "bummer", roles: ["userAdminAnyDatabase", "dbAdminAnyDatabase", "readWriteAnyDatabase"]})
-*/
-
 func run() error {
 	// Environmental Variables
 
